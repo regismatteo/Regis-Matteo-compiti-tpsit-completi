@@ -1,0 +1,12 @@
+.main-container {
+    max-width: 800px;
+}
+
+.player-btn {
+    width: 100px;
+    height: 100px;
+    transition: width 0.3s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

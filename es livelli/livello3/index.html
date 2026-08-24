@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <input type="number" name="numero" id="numero">
+            <button id="conftab" onclick="calcolaTabellina()">calcola</button>
+            <p id="risultato"></p>
+        </div>
+
+        <div>
+            <input type="text" name="nuovo" id="nuovo">
+            <button id="aggiungi" onclick="aggiungiElemento()">aggiungi</button>
+            <ul id="lista">
+                <li id="1">1</li>
+                <li id="2">2</li>
+            </ul>
+        </div>
+
+        <div>
+            <input type="text" name="elemento" id="elemento" placeholder="inserisci o acqua o colpito...">
+            <button id="aggiungi" onclick="aggiungiElementolv3()">aggiungi</button>
+            <p id="risultatoelemento"></p>
+        </div>
+
+        <div>
+            <input type="text" name="ricerca" id="ricerca">
+            <button id="ricerca" onclick="ricercaElemento()">cerca</button>
+            <p id="risultatoelementolv4"></p>
+        </div>
+    </main>
+    <script src="js/scrypt.js"></script>
+</body>
+</html>

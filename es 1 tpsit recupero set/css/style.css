@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Personalizzazione delle immagini nel Carousel (Home) */
+.hero-img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* Immagini per la pagina "Cosa Vedere" */
+.card-attraction-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Modifica ai bordi e alle ombre delle Card */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Personalizzazione dello stile della tabella */
+.table th {
+  letter-spacing: 0.5px;
+}
+
+/* Accessibilità e contrasto per gli elementi selezionati */
+a:focus, button:focus, input:focus, select:focus {
+  outline: 3px solid #0d6efd !important;
+}

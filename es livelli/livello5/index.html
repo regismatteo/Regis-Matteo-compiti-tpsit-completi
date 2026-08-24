@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battaglia Navale Semplificata</title>
+    <!-- Foglio di stile esterno -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h2>Battaglia Navale Semplificata</h2>
+
+    <div id="container-gioco">
+        <!-- Griglia di gioco 5x5 -->
+        <div id="griglia"></div>
+
+        <!-- Pannello Punteggio e Stato Navi -->
+        <div id="info-pannello">
+            <h3>Punteggio: <span id="punteggio">0</span></h3>
+            <h4>Navi in gioco:</h4>
+            <ul id="lista-navi"></ul>
+
+            <div id="messaggio"></div>
+
+            <!-- Pulsante Reset -->
+            <button id="btn-reset" onclick="inizializzaGioco()">Ricomincia</button>
+        </div>
+    </div>
+
+    <!-- Script JavaScript esterno -->
+    <script src="js/script.js"></script>
+</body>
+</html>

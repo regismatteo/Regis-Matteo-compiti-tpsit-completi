@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioco della Matrice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light p-4">
+
+    <div class="container bg-white p-4 rounded shadow-sm main-container">
+        <h2 class="text-center mb-4">Sfida sulla Matrice</h2>
+        
+        <div id="setup-area"></div>
+
+        <div id="hint-div" class="alert alert-info text-center d-none fw-bold my-3" role="alert">
+            Valore: <span id="hint-value"></span>
+        </div>
+
+        <div id="matrix-container" class="my-4"></div>
+
+        <div id="players-area" class="d-flex flex-column align-items-start gap-3"></div>
+        
+        <div id="result-div" class="mt-4"></div>
+    </div>
+
+    <script src="js/scrypt.js"></script>
+</body>
+</html>

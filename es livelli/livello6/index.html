@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronometro, Timer e Gioco</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CRONOMETRO -->
+  <div class="card">
+    <h2>⏱️ Cronometro</h2>
+    <div class="display" id="chrono-display">00:00:00</div>
+    <div class="controls">
+      <button class="btn-start" id="chrono-start">Avvia</button>
+      <button class="btn-stop" id="chrono-stop">Ferma</button>
+      <button class="btn-reset" id="chrono-reset">Azzera</button>
+    </div>
+  </div>
+
+  <!-- TIMER CONTO ALLA ROVESCIA -->
+  <div class="card">
+    <h2>⏳ Timer Conto alla Rovescia</h2>
+    <div class="controls timer-input-container">
+      <input type="number" id="timer-input" placeholder="Secondi" min="1">
+    </div>
+    <div class="display" id="timer-display">00:00</div>
+    <div class="controls">
+      <button class="btn-start" id="timer-start">Avvia</button>
+      <button class="btn-stop" id="timer-stop">Ferma</button>
+    </div>
+    <div class="msg" id="timer-msg"></div>
+  </div>
+
+  <!-- GIOCO A TEMPO -->
+  <div class="card">
+    <h2>🎯 Gioco a Tempo</h2>
+    <p>Trova le 3 celle speciali prima che scadano 30 secondi!</p>
+    <div class="display" id="game-timer">30s</div>
+    <div class="grid" id="game-grid"></div>
+    <button class="btn-start" id="game-start-btn">Inizia Gioco</button>
+    <div class="msg" id="game-msg"></div>
+  </div>
+
+  <script src="js/scrypt.js"></script>
+</body>
+</html>

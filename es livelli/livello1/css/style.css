@@ -1,0 +1,56 @@
+#conferma{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#conferma:hover {
+    background-color: #45a049;
+}
+#conferma:active {
+    scale: 0.95;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#contatore{
+    height: 30px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+}
+#contatore:active {
+    scale: 1.10;
+}
+
+#riquadrocolore{
+    height: 100px;
+    width: 100px;
+    background-color: lightgray;
+}
+
+#giallo{
+    background-color: yellow;
+    width: 50px;
+}
+#rosso{
+    background-color: red;
+    width: 50px;
+}
+#verde{
+    background-color: green;
+    width: 50px;
+}
+#blu{
+    background-color: blue;
+    color: white;
+    width: 50px;
+}

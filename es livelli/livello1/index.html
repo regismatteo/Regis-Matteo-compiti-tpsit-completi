@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>livello1</title>
+</head>
+
+<body>
+    <main>
+        <div>
+            <input type="text" id="nome" name="nome" placeholder="inserisci il tuo nome...">
+            <button id="conferma" onclick="conferma()">conferma</button>
+            <p id="messaggio-personalizzato"></p>
+        </div>
+
+        <div id= div-cont>
+            <p id="numero">0</p>
+            <button id="contatore" onclick="contatore()">+</button> 
+        </div>
+
+        <div id="div-colore">
+            <div id="riquadrocolore"></div>
+            <button id="verde" onclick="cambiaColoreverde()">verde</button>
+            <button id="blu" onclick="cambiaColoreblu()">blu</button>
+            <button id="rosso" onclick="cambiaColorerosso()">rosso</button>
+            <button id="giallo" onclick="cambiaColoregiallo()">giallo</button>
+        </div>
+
+        <div>
+            <p id="messaggio-nascondi-mostra"> ciao a tutti!!!</p>
+            <button onclick="nascondimostra()">nascondi/mostra</button>
+        </div>
+    </main>
+    <script src="js/scrypt.js"></script>
+</body>
+
+</html>

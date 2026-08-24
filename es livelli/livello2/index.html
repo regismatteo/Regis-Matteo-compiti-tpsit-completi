@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>livello 2</title>
+</head>
+<body>
+    <main>
+        <div>
+            <input type="number" id="posneg" required>
+            <button id="posnegbut" onclick="verificaposneg()">Verifica positivi e negativi</button>
+            <p id="posnegris"></p>
+        </div>
+        <div>
+            <input type="number" id="pardisp" required>
+            <button id="paridispbut" onclick="verificaparidisp()">Verifica</button>
+            <p id="risposta"></p>
+        </div>
+
+        <div>
+            <input type="number" id="scelta" required>
+            <button id="indovina" onclick="indovina()">Indovina</button>
+            <p id="indovinaris"></p>
+        </div>
+
+        <form action="#">
+            <input type="text" name="nome" id="nome" placeholder="Nome" >
+            <input type="email" name="email" id="email" placeholder="Email" >
+            <input type="text" name="messaggio" id="messaggio" placeholder="Messaggio" >
+            <button type="button" onclick="validaform()">Invia</button>
+            <p id="formris"></p>
+        </form>
+    </main>
+
+    <script src="js/scrypt.js"></script>
+</body>
+</html>

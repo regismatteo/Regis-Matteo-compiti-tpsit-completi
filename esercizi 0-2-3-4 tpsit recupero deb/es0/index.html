@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battaglia Navale</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <header>
+      <h1>Battaglia Navale</h1>
+      <p class="subtitle">Trova e affonda tutte le navi nemiche!</p>
+    </header>
+
+    <div class="stats-panel">
+      <div class="stat-card">
+        <span class="stat-label">Tentativi</span>
+        <span id="attempts" class="stat-value">0</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Bersagli Rimanenti</span>
+        <span id="remaining-targets" class="stat-value">0</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Tempo</span>
+        <span id="timer" class="stat-value">00:00</span>
+      </div>
+    </div>
+
+    <div id="message-board" class="message-board">
+      Premi "Nuova Partita" per iniziare!
+    </div>
+
+    <div id="grid-container" class="grid-container"></div>
+
+    <div class="controls">
+      <button id="restart-btn" class="btn">Nuova Partita</button>
+    </div>
+  </div>
+
+  <script src="js/scrypt.js"></script>
+</body>
+</html>
